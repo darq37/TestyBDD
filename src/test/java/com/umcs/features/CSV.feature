@@ -49,8 +49,7 @@ Feature: Login Feature
     When Analysing trends
     Then Get 3 companies with highest percentage increase of their prices
 
-
-
-
-
-
+  Scenario: Making average price for a company
+    Given multiple files including same company
+    When Making monthly summary
+    Then Add multiple records and get average price

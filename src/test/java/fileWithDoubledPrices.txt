@@ -1,0 +1,2 @@
+ibm;redhat;ibm
+dzisiaj;107.5};52,5;500
